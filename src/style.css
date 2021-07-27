@@ -95,28 +95,3 @@ li:first-letter {
 #icon {
   position: relative;
 }
-#fetch-current-data {
-  border-color: #ffaaa5;
-  background-color: #ffaaa5;
-  display: inline;
-  transition: all 250ms ease-in-out;
-}
-#city-input {
-  color: #698474;
-  border-color: #ffd3b6;
-  background-color: #fcf8f3;
-  display: inline;
-}
-#city-input-btn {
-  border-color: #ffaaa5;
-  background-color: #ffaaa5;
-  display: inline;
-  transition: all 250ms ease-in-out;
-}
-.line {
-  color: #698474;
-}
-#fetch-current-data:hover,
-#city-input-btn:hover {
-  opacity: 0.7;
-}
