@@ -1,0 +1,4 @@
+#PLAN
+# To add the HTML and CSS for forecast (HTML/CSS)
+# Integrate API call to get forecast data (API)
+# Replace the dummy content with real data (JS)
