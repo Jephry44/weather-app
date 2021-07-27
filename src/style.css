@@ -54,3 +54,6 @@ li {
 .fahrenheit {
   text-decoration: none;
 }
+#description {
+  text-transform: capitalize;
+}
