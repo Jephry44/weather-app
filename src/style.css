@@ -1,11 +1,9 @@
 body {
   font-family: "Poppins", sans-serif;
-  background-color: #ffd3b6;
-  color: #698474;
 }
 
 h1 {
-  color: #698474;
+  color: #878787;
   display: block;
   font-size: 30px;
   font-weight: 400;
@@ -20,7 +18,7 @@ li {
   list-style: none;
   margin-top: 5px;
   padding: 0;
-  color: #698474;
+  color: #878787;
   font-size: 16px;
   font-weight: 300;
   line-height: 19px;
@@ -34,9 +32,8 @@ li:first-letter {
 }
 .weather-app {
   padding: 20px;
-  border: 2px solid #698474;
+  border: 1px solid #dadde1;
   border-radius: 5px;
-  background-color: #fcf8f3;
 }
 .overview {
   margin-bottom: 20px;
@@ -47,7 +44,7 @@ li:first-letter {
   width: 104px;
 }
 .weather-temperature strong {
-  color: #698474;
+  color: rgb(33, 33, 33);
   font-size: 64px;
   font-weight: 400;
   line-height: 1;
@@ -64,7 +61,7 @@ li:first-letter {
   text-decoration: none;
 }
 .weather-temperature .active {
-  color: #698474;
+  color: rgb(33, 33, 33);
   cursor: default;
 }
 
@@ -74,7 +71,7 @@ li:first-letter {
 .weather-forecast {
   margin-top: 20px;
   text-align: center;
-  color: #698474;
+  color: rgb(33, 33, 33);
 }
 .weather-forecast-date {
   font-size: 16px;
@@ -92,12 +89,13 @@ li:first-letter {
 }
 .humid-style,
 .wind-style {
-  color: #698474;
+  color: rgb(33, 33, 33);
   font-weight: 300;
 }
 #icon {
   position: relative;
 }
+<<<<<<< HEAD
 #fetch-current-data {
   border-color: #ffaaa5;
   background-color: #ffaaa5;
@@ -123,3 +121,5 @@ li:first-letter {
 #city-input-btn:hover {
   opacity: 0.7;
 }
+=======
+>>>>>>> parent of a10b5c4 (More CSS/ fixing color palettes)
