@@ -1,9 +1,11 @@
 body {
   font-family: "Poppins", sans-serif;
+  background-color: #ffd3b6;
+  color: #698474;
 }
 
 h1 {
-  color: #878787;
+  color: #698474;
   display: block;
   font-size: 30px;
   font-weight: 400;
@@ -18,7 +20,7 @@ li {
   list-style: none;
   margin-top: 5px;
   padding: 0;
-  color: #878787;
+  color: 698474;
   font-size: 16px;
   font-weight: 300;
   line-height: 19px;
@@ -32,8 +34,9 @@ li:first-letter {
 }
 .weather-app {
   padding: 20px;
-  border: 1px solid #dadde1;
+  border: 1.5px solid #698474;
   border-radius: 5px;
+  background-color: white;
 }
 .overview {
   margin-bottom: 20px;
@@ -44,7 +47,7 @@ li:first-letter {
   width: 104px;
 }
 .weather-temperature strong {
-  color: rgb(33, 33, 33);
+  color: #698474;
   font-size: 64px;
   font-weight: 400;
   line-height: 1;
@@ -61,7 +64,7 @@ li:first-letter {
   text-decoration: none;
 }
 .weather-temperature .active {
-  color: rgb(33, 33, 33);
+  color: #698474;
   cursor: default;
 }
 
@@ -71,11 +74,11 @@ li:first-letter {
 .weather-forecast {
   margin-top: 20px;
   text-align: center;
-  color: rgb(33, 33, 33);
+  color: #698474;
 }
 .weather-forecast-date {
   font-size: 16px;
-  opacity: 0.5;
+  opacity: 0.7;
 }
 .weather-forecast-temperature-min {
   opacity: 0.5;
@@ -89,9 +92,35 @@ li:first-letter {
 }
 .humid-style,
 .wind-style {
-  color: rgb(33, 33, 33);
+  color: #698474;
   font-weight: 300;
 }
+#wind,
+#humidity {
+  font-weight: 200;
+}
+
 #icon {
   position: relative;
+}
+#city-input {
+  border-color: #ffaaa5;
+  background-color: #fcf8f3;
+}
+#city-input-btn {
+  border-color: #ffaaa5;
+  background-color: #ffaaa5;
+  transition: all 250ms ease-in-out;
+}
+#fetch-current-data {
+  border-color: #ffaaa5;
+  background-color: #ffaaa5;
+  opacity: 0.6;
+  transition: all 250ms ease-in-out;
+}
+#fetch-current-data:hover {
+  opacity: 1;
+}
+#city-input-btn:hover {
+  opacity: 0.6;
 }
