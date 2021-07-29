@@ -53,18 +53,17 @@
             <h1 id="city"></h1>
             <ul>
               <li>Last updated: <span id="date"></span></li>
-              <li id="description"></li>
             </ul>
           </div>
-          <div class="row">
+          <div class="row" id="middle-section">
             <div class="col-6">
               <div class="d-flex weather-temperature">
                 <div class="float-left">
                   <strong id="temperature"></strong
                   ><span class="units">°C</span>
-
                   <div class="conditions">
                     <ul>
+                      <li id="description"></li>
                       <li>
                         <span class="humid-style">Humidity | </span
                         ><span id="humidity"></span><span id="humidity">%</span>
@@ -76,12 +75,17 @@
                     </ul>
                   </div>
                 </div>
-                <div class="row">
-                  <div class="col-6">
-                    <img src="" alt="" class="float-left" id="icon" />
-                  </div>
-                </div>
               </div>
+            </div>
+            <div class="col-6">
+              <img
+                src=""
+                alt=""
+                class="float-left"
+                id="icon"
+                width="120"
+                height="120"
+              />
             </div>
           </div>
           <hr />
